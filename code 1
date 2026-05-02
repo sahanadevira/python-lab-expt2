@@ -1,0 +1,21 @@
+
+n=int(input("enter the number"))
+num=n
+pow=len(str(n))
+total=0
+while num>0:
+   digit=num%10
+   total+=digit**pow
+   num//=10
+if total==n:
+      print(f"{n} is an armstrong number")
+else:
+      print(f"{n} is not an armstrong number")
+
+
+enter the number153
+153 is an armstrong number
+
+
+Script done on Thu Feb 26 16:00:49 2026
+[25bec021@mepcolinux expt2]$
