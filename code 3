@@ -1,0 +1,19 @@
+
+a=int(input("Enter a :"))
+b=int(input("Enter b :"))
+c=int(input("Enter c :"))
+
+if b>a and b>c:
+    print("b is greater than a and c")
+elif a>b and a>c:
+    print("a is greater than b and c")
+elif c>b and c>a:
+    print("c is greater than a and b")
+elif a==b:
+    print("a and b are equal")
+else:
+    print("b and c are equal")
+Enter a :2
+Enter b :7
+Enter c :5
+b is greater than a and c
