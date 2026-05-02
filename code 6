@@ -1,0 +1,13 @@
+
+a=int(input("Enter the number:"))
+if a>=18:
+   print(f"{a} is eligible for vote")
+else:
+   print(f"{a} is not eligible for vote")
+
+
+Enter the number:18
+18 is eligible for vote
+
+Enter the number:23
+23 is eligible for vote
